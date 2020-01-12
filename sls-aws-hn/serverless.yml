@@ -1,0 +1,11 @@
+service: sls-aws-hn
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+functions:
+  hello:
+    handler: dist/handler.hello
+  fetchItem:
+    handler: dist/handler.fetchItem

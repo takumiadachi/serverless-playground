@@ -1,0 +1,5 @@
+handler.js
+*.log
+*.map
+node_modules/
+dist/
